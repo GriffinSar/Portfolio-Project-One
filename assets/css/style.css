@@ -3,6 +3,7 @@
     padding: 0;
     border:none;
     background-color: whitesmoke;
+    color: black
     
 }
 
@@ -32,15 +33,28 @@
 }
 
 .logo {
-    width:100%;
-   border: 50px;
+  width:100%;  
+  border: 50px;
 }
 
 .yarn-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+}
+
+/*text-paragraph on author of page*/
+
+.about {
+    color:black;
+    
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  
 }
 
 
