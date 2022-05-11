@@ -1,48 +1,64 @@
 *{
     margin:0;
     padding: 0;
-    border:none;
-    background-color: whitesmoke;
-    color: black
-    
+    border:none;   
 }
 
-/*nav-bar and main image*/
+body{
+    background-color: whitesmoke;
+    color: black
+}
+
+/*nav-bar and logo*/
 
 #list{
     font-size: 110%;
-    letter-spacing: 6px;
-    
+    letter-spacing: 6px; 
+    max-width:100%;
+    max-height: 100%;
+    position:absolute;
+    top:6px; 
+    right:50px;
+     
 }
 
 #list li {
-    float: right;
-    margin-right: 30px;
+    float:right;
     list-style-type: none;
+    width:200px;
+    height: 50px;
+    
 
 }
  
 #list a {
     text-decoration: none;
     color:inherit;
+    float: right;
 }
 
-.page-header {
-    max-width: 960px;
-    margin: 0 auto;
+
+img {
+    max-width:100%;
+    max-height: 100%%; 
+    
 }
 
 .logo {
-  width:100%;  
-  border: 50px;
+    height: 175px;
+    width: 300px;
+    
 }
 
-.yarn-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+/*main image*/
+
+#yarn-image {
+    height: 300px;
     width: 100%;
+    background:url('../images/learn-to-crochet-1.jpg') no-repeat center center;
 }
+
 
 /*text-paragraph on author of page*/
 
