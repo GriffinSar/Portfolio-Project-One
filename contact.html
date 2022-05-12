@@ -39,6 +39,41 @@
     </nav>
 </header>
 
+<section id="information">
+    <h3>Please fill out your details and specify your class level prefernce and we will contact you to set up you class. If you have any additional needs or extra question please specify in the additional info section and we will be happy to accomodate you in any way we can.</h3>
+</section>
+
+<section class="form-section">
+    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form" >
+        <h2>Contact us to join up</h2>
+        
+        <label for="fname">First Name</label>
+        <input id="fname" name="first_name" type="text" required class="text-input">
+        
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" type="text" class="text-input">
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" class="text-input">
+
+        <label for="number">Contact Number</label>
+        <input id="number" name="contact_number" type="number" class="text-input">
+
+        <label for="ainfo">Adittional Info</label>
+        <input id="ainfo" name="additional_info" type="text" class="text-input">
+
+        
+        <label for="beginner">Beginner</label>
+        <input type="radio" id="beginner" name="class_prefernce" value="class" required>
+        <label for="intermediate">Intermediate</label>
+        <input type="radio" id="intermediate" name="class_prefernce" value="class" required>
+        <label for="advanced">Advanced</label>
+        <input type="radio" id="advanced" name="class_prefernce" value="class" required>
+        
+        
+        <input class="join-button" type="submit" value="Sign Up!">
+    </form>
+</section>
 <footer>
     <ul class="social-networks">
         <li>
